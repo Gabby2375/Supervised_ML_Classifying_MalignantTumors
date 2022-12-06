@@ -1,5 +1,6 @@
 ---
-title: "Identifying the Best Machine Learning Algorithm in the Detection of Malignant Tumors"
+title: "Final Project Code Submission"
+author: "Flott, Nora; Pesantez, Alejandro; Taylor, Gabrielle"
 date: "Sun, 3/27/2022"
 output: html_document
 ---
@@ -50,7 +51,7 @@ glimpse(fna)
 
 # The Task
 
-We've been asked by the physicians to conduct an analysis of the data using three of the classification methods.
+We've been asked by the physicians to conduct an analysis of the data using three of the classification methods we've seen in this class, and provide a video presentation that describes those results.
 
 For our analysis we'll be:
 
@@ -63,7 +64,7 @@ For our analysis we'll be:
 
 ## EDA
 
-Convert variable(s) to appropriate variable types
+Convert variable(s) to approprate variable types
 ```{r}
 fna_tidy <- fna %>% mutate( id = as.character(id), diagnosis = as.factor(diagnosis) )
 # Checks each variables data type
